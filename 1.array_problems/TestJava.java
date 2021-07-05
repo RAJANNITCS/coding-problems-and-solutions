@@ -1,14 +1,15 @@
-// This java program for testing perpost 
-
-import java.util.Scanner;
+// A java program for using testing perpose
 
 class TestJava {
+    int value = 0;
+
+    void changeValue(TestJava obj) {
+        obj.value = 10;
+    }
 
     public static void main(String[] args) {
-        int value = 0;
-        Scanner intValue = new Scanner(System.in);
-        System.out.println("Enter value");
-        value = intValue.nextInt();
-        System.out.println("The value is "+ value);
+        TestJava test = new TestJava();
+        test.changeValue(test);
+        System.out.println(test.value);
     }
 }
