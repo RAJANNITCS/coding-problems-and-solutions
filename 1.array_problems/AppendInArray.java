@@ -21,6 +21,7 @@ class AppendInArray {
         }else {
             System.out.println("Out of rang");
         }
+        intValue.close();
        
     }
 
@@ -31,6 +32,7 @@ class AppendInArray {
         value = intValue.nextInt();
         obj.arr[obj.length] = value;
         obj.length++;
+        intValue.close();
     }
 
     void displayArray(AppendInArray obj) {

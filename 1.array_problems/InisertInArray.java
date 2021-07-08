@@ -18,6 +18,7 @@ class InisertInArray {
             obj.arr[i] = intValue.nextInt();
             obj.length++;
         }
+        intValue.close();
     }
 
     void display(InisertInArray obj) {
@@ -39,6 +40,7 @@ class InisertInArray {
         }
         obj.arr[index] = value;
         obj.length++;
+        intValue.close();
     }
 
     public static void main(String[] args) {

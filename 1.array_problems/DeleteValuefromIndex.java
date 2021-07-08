@@ -17,6 +17,7 @@ class DeleteValuefromIndex {
         for(int i = 0; i < obj.length; i++) {
             obj.arr[i] = intValue.nextInt();
         }
+        intValue.close();
     }
 
     void display(DeleteValuefromIndex obj) {
@@ -39,7 +40,9 @@ class DeleteValuefromIndex {
             obj.length--;
         }else {
             System.out.println("Out of range");
-        } 
+        }
+        
+        intValue.close();
     }
 
     public static void main(String[] args) {
