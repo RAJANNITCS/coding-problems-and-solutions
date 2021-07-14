@@ -31,7 +31,7 @@ class FibonacciSeries {
     }
     public static void main(String[] args) {
         int number = 10;
-        // findFabonacciSeries(number);
+        findFabonacciSeries(number);
         // findFabonacciSeriesRecursion(number);
     }
 }
