@@ -10,8 +10,10 @@ class DiffUsingNewAndLitral {
         String animal_5 = "Dog";
         // String animal_3 = "cat";
         // String animal_4 = "cat";
-        // System.out.println(animal_1 == animal_2);
+        System.out.println(animal_1 == animal_2);
         // System.out.println(animal_3 == animal_4);
-        // System.out.println(animal_1 == animal_5);
+        System.out.println(animal_1 == animal_5);
     }
+
+
 }
