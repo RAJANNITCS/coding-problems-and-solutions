@@ -3,7 +3,12 @@
 class StringTest {
     
     public static void main(String[] args) {
-        char b = 'w';
-        System.out.printf("%c",b + 1);
+       int i = 10;
+        if (i == 10) {
+            System.out.println("println 10");
+        }else if (i > 5) {
+            System.out.println("println i > 5");
+        }
+ 
     }
 }
