@@ -1,9 +1,8 @@
-// A java program for testing linkedList
+// A java program for testing linkedlist 
 
 
-class LinkedListTest {
-
+public class LinkedListTest {
     public static void main(String[] args) {
-        System.out.println("Hello World");
+        System.out.println("Hello World!!");
     }
 }
