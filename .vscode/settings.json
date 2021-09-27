@@ -1,9 +1,5 @@
 {
     "java.project.sourcePaths": [
-        "4.LinkedList",
-        "3.string_problems",
-        "2.recursion",
-        "1.array_problems",
-        "5.java_learning"
+        "1.java_coding_problems"
     ]
 }
